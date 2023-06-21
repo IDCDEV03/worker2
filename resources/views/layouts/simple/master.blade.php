@@ -3,10 +3,10 @@
 
 <head>
   <meta charset="utf-8">
-  <title>TourGuider</title>
-  <meta name="description" content="Tourguider">
+  <title>Worker</title>
+  <meta name="description" content="Worker">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="shortcut icon" type="image/x-icon" href="{{asset('assets/img/favicon.png')}}">
+  <link rel="shortcut icon" type="image/x-icon" href="{{asset('img/fav_wk.png')}}">
 
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">

@@ -3,7 +3,7 @@
         <div class="header__topbar bg__primary2">
             <div class="container">
                 <div class="header__topbar--inner d-flex align-items-center justify-content-between">
-                    <p class="wellcome__text text-white m-0">ยินดีต้อนรับสู่ TourGuider</p>
+                    <p class="wellcome__text text-white m-0">ยินดีต้อนรับสู่ Worker</p>
                     <div class="header__topbar--right d-flex align-items-center">
                         <div class="language__currency d-none d-lg-block">
                             <ul class="d-flex align-items-center">
@@ -73,7 +73,7 @@
                         </a>
                     </div>
                     <div class="main__logo">
-                        <h1 class="main__logo--title"><a class="main__logo--link" href="index.html"><img class="main__logo--img" src="assets/img/logo/nav-log.png" width="194px" height="66px" alt="logo-img"></a></h1>
+                        <h1 class="main__logo--title"><a class="main__logo--link" href="index.html"><img class="main__logo--img" src="{{asset('img/worker_logo.png')}}" width="194px" height="66px" alt="logo-img"></a></h1>
                     </div>
                     <div class="header__menu d-none d-lg-block">
                         <nav class="header__menu--navigation">
