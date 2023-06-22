@@ -8,8 +8,16 @@ use Illuminate\Support\Facades\DB;
 
 class HomeController extends Controller
 {
-    public function market()
+    public function worker()
     {
-        return view('market.home');
+        $worker_home = DB::table('worker_datas')
+        ->orderBy('id', 'ASC')
+        ->get();
+        return view('worker.home',compact('worker_home'));
+    }
+
+    public function admin()
+    {
+        return view('admin.home');
     }
 }

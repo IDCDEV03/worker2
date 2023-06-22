@@ -65,7 +65,7 @@
   --gray-color: #FAFBFE;
   --gray-color2: #F5F5F5;
   --text-gray-color: #555;
-  --font-Kanit: 'Kanit', sans-serif;
+  --font-lato: 'Lato', sans-serif;
   --font-lora: 'Lora', serif;
   --font-poppins: 'Poppins', sans-serif;
   --body-font-size: 1.5rem;
@@ -105,7 +105,7 @@ body {
 }
 
 body {
-  font-family: var(--font-Kanit);
+  font-family: var(--font-lato);
   font-size: var(--body-font-size, 15px);
   font-weight: var(--body-font-weight);
   font-style: normal;
@@ -145,7 +145,7 @@ h1,
   font-size: 2.6rem;
   line-height: 3.5rem;
   font-weight: var(--headings-weight);
-  font-family: var(--font-Kanit);
+  font-family: var(--font-lora);
 }
 
 @media only screen and (min-width: 480px) {
@@ -209,7 +209,7 @@ h2,
   font-size: 2.2rem;
   line-height: 2.8rem;
   font-weight: 500;
-  font-family: var(--font-Kanit);
+  font-family: var(--font-lora);
 }
 
 @media only screen and (min-width: 768px) {
@@ -322,17 +322,13 @@ h6,
 
 p,
 .p {
-  font-family: var(--font-Kanit);
   margin-top: 0;
-  font-size: 1.6rem;
   margin-bottom: 1.8rem;
 }
 
 @media only screen and (min-width: 768px) {
   p,
   .p {
-    font-family: var(--font-Kanit);
-    font-size: 1.6rem;
     line-height: 2.5rem;
   }
 }
@@ -343,8 +339,6 @@ p:last-child {
 
 a,
 button {
-  font-size: 1.6rem;
-  font-family: var(--font-Kanit);
   display: inline-block;
   cursor: pointer;
   -webkit-transition: var(--transition);
@@ -381,7 +375,7 @@ a:hover {
 button,
 input[type=submit] {
   cursor: pointer;
-  font-family: var(--font-Kanit);
+  font-family: var(--font-lato);
   font-size: var(--body-font-size);
   font-weight: var(--body-font-weight);
   line-height: var(--body-line-height);
@@ -400,14 +394,12 @@ span {
   display: inline-block;
   -webkit-transition: var(--transition);
   transition: var(--transition);
-  font-size: 1.6rem;
 }
 
 label {
   -webkit-transition: var(--transition);
   transition: var(--transition);
   display: block;
-  font-size: 1.4rem;
 }
 
 input::-webkit-input-placeholder,
@@ -1564,7 +1556,7 @@ hr {
 
 select {
   word-wrap: normal;
-  font-family: var(--font-Kanit);
+  font-family: var(--font-lato);
   font-size: var(--body-font-size);
   font-weight: var(--body-font-weight);
   line-height: var(--body-line-height);
@@ -2306,7 +2298,7 @@ body.overlay__active::before, .predictive__search--box_active::before, .mobile_m
 }
 
 .offcanvas__account--currency__menu {
-  font-family: var(--font-Kanit);
+  font-family: var(--font-poppins);
   font-weight: 500;
 }
 
@@ -3269,7 +3261,7 @@ body.overlay__active::before, .predictive__search--box_active::before, .mobile_m
 .header__menu--link {
   font-size: 1.5rem;
   line-height: 2.5rem;
-  font-family: var(--font-Kanit);
+  font-family: var(--font-poppins);
   padding: 15px 0;
 }
 
@@ -3312,7 +3304,7 @@ body.overlay__active::before, .predictive__search--box_active::before, .mobile_m
 
 .header__sub--menu__link {
   font-size: 1.5rem;
-  font-family: var(--font-Kanit);
+  font-family: var(--font-poppins);
   display: block;
   padding: 10px 0;
 }
@@ -3354,13 +3346,13 @@ body.overlay__active::before, .predictive__search--box_active::before, .mobile_m
 .header__mega--subtitle {
   font-weight: 600;
   font-size: 1.6rem;
-  font-family: var(--font-Kanit);
+  font-family: var(--font-poppins);
   margin-bottom: 15px;
 }
 
 .header__mega--sub__menu--title {
   font-size: 1.5rem;
-  font-family: var(--font-Kanit);
+  font-family: var(--font-poppins);
   padding: 1rem 0;
   font-weight: 300;
 }
@@ -3377,7 +3369,7 @@ body.overlay__active::before, .predictive__search--box_active::before, .mobile_m
 }
 
 .account__currency--link {
-  font-family: var(--font-Kanit);
+  font-family: var(--font-poppins);
   font-weight: 500;
 }
 
@@ -3813,7 +3805,7 @@ input[type=number]::-webkit-outer-spin-button {
 
 .offcanvas__language--switcher {
   font-weight: 500;
-  font-family: var(--font-Kanit);
+  font-family: var(--font-poppins);
 }
 
 .offcanvas__dropdown--language {
@@ -6561,7 +6553,7 @@ input[type=number]::-webkit-outer-spin-button {
 
 .deals__banner--countdown .countdown__text {
   text-align: center;
-  font-family: var(--font-Kanit);
+  font-family: var(--font-lora);
   font-weight: 500;
   text-transform: uppercase;
   margin-top: 5px;
@@ -6703,7 +6695,7 @@ input[type=number]::-webkit-outer-spin-button {
   font-size: 1.4rem;
   line-height: 2.2rem;
   margin-bottom: 10px;
-  font-family: var(--font-Kanit);
+  font-family: var(--font-poppins);
   font-weight: 400;
 }
 
@@ -6737,7 +6729,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .counterup__banner--items__number {
-  font-family: var(--font-Kanit);
+  font-family: var(--font-lora);
   font-weight: 700;
   font-size: 2.5rem;
   line-height: 3rem;
@@ -11179,7 +11171,7 @@ input.quickview__value--number {
   border-radius: 8px;
   resize: none;
   border: 1px solid var(--border-color);
-  font-family: var(--font-Kanit);
+  font-family: var(--font-poppins);
 }
 
 .contact__form--textarea:focus {
