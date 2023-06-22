@@ -139,7 +139,7 @@
                                 <div class="col md-28">
                                     <div class="product__items product__items2">
                                         <div class="product__items--thumbnail">
-                                            <a class="product__items--link" href="product-details.html">
+                                            <a class="product__items--link" href="#">
                                                 <img class="product__items--img 
                                                 product__primary--img" src="
                                                 {{ asset($row->name_img) }}
