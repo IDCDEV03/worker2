@@ -87,31 +87,17 @@
                 <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-2 row-cols-1 mb--n30">
                     <div class="col mb-30">
                         <div class="banner__items position__relative">
-                            <a class="banner__items--thumbnail display-block" href="shop.html"><img class="banner__items--thumbnail__img display-block" src="assets/img/banner/banner3.png" alt="banner-img">
-                                <div class="banner__two--content">
-                                    <h2 class="banner__two--content__title text-white">VIDEO</h2>
-                                </div>
-                            </a>
+                            <iframe width="370" height="264" src="https://www.youtube.com/embed/GMluxVJLciU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                         </div>
                     </div>
                     <div class="col mb-30">
                         <div class="banner__items position__relative">
-                            <a class="banner__items--thumbnail display-block" href="shop.html"><img class="banner__items--thumbnail__img display-block" src="assets/img/banner/banner4.png" alt="banner-img">
-                                <div class="banner__two--content">
-                                    <h2 class="banner__two--content__title text-white">VIDEO</h2>
-                                </div>
-                            </a>
+                            <iframe width="370" height="264" src="https://www.youtube.com/embed/O6rhADfktiQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                         </div>
                     </div>
                     <div class="col mb-30">
                         <div class="banner__items position__relative">
-                            <a class="banner__items--thumbnail display-block" href="shop.html"><img class="banner__items--thumbnail__img display-block" src="assets/img/banner/banner5.png" alt="banner-img">
-                                <div class="banner__two--content">
-                              
-                                    <h2 class="banner__two--content__title text-white">VIDEO</h2>
-                                  
-                                </div>
-                            </a>
+                            <iframe width="370" height="264" src="https://www.youtube.com/embed/-BmnoerSTVQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>
